@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+.pattern-top {
+    position: absolute;
+    bottom: 35%;
+    right: 50%;
+  }
+  
+.pattern-bottom {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  
+.card-wrapper {
+    display:flex;
+    flex-direction: column;
+    column-width: 350px;
+    position: fixed;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+.card-header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+header .profile-thumbnail {
+    position: absolute;
+    transform:translate(60px, -70px);
+    border: 6px solid white;
+    border-radius: 50%;
+  }
+
+header .profile-info {
+        margin-top: 80px;
+  }
+  
+h1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+  }
+
+h1 span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    margin-left: 10px;
+  }
+
+p {
+    color: hsl(0, 0%, 59%);
+    font-size: 1.0rem;
+    font-weight: 300;
+  }
+
+p span {
+    margin: 0;
+    color:hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+
+footer .stats {
+    display: flex;
+    border-top: lightgray solid 1px;
+    justify-content: space-evenly;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 0.5;
+  }
